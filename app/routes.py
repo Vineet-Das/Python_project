@@ -18,7 +18,7 @@ employees_schema = EmployeeSchema(many=True)
 
 @main.route('/')
 def index():
-    return jsonify({"message":"WELCOME TO THE EMPLOYEE MANAGEMNET SYSTEM!"})
+    return jsonify({"message":"WELCOME TO THE EMPLOYEE MANAGEMENT SYSTEM!"})
 # CRUD - Create, Read, Update, Delete
 
 
